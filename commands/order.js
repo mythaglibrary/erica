@@ -9,7 +9,7 @@ const content = await readFile(
 export default {
   data: new SlashCommandBuilder()
     .setName("order")
-    .setDescription("All the active promotional codes"),
+    .setDescription("This shows the order of the daily reruns"),
 
   async execute(interaction) {
     await interaction.reply({ content, flags: MessageFlags.SuppressEmbeds });
