@@ -21,11 +21,11 @@ export default {
 
   async execute(interaction) {
     const pyramid = new EmbedBuilder()
+      .setDescription(content)
       .setImage("attachment://pyramid.png")
       .setColor(0x4f252e);
 
     await interaction.reply({
-      content,
       embeds: [pyramid],
       files: [pyramidFile],
     });
