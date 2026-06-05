@@ -30,7 +30,7 @@ export default {
         .setDescription("The character name to look up")
         .setRequired(true)
         .addChoices(
-          { name: "Test1", value: "test1" },
+          { name: "Test", value: "test" },
           { name: "Borin", value: "borin" },
           { name: "Celeste", value: "celeste" },
           { name: "Drakon", value: "drakon" },
