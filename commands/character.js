@@ -3,7 +3,7 @@ import { readFile } from "fs/promises";
 
 const guides = {
   arachne: await readFile(
-    new URL("../content/characters/Arachne.md", import.meta.url),
+    new URL("../content/characters/arachne.md", import.meta.url),
     "utf8",
   ),
     borin: await readFile(
