@@ -4,6 +4,7 @@ import {
   SlashCommandBuilder,
 } from "discord.js";
 import { readFile } from "fs/promises";
+import { palette } from "../src/palette.js";
 
 const content = await readFile(
   new URL("../content/pyramid.md", import.meta.url),
@@ -23,7 +24,7 @@ export default {
     const pyramid = new EmbedBuilder()
       .setDescription(content)
       .setImage("attachment://pyramid.png")
-      .setColor(0x4f252e);
+      .setColor(palette.amber);
 
     await interaction.reply({
       embeds: [pyramid],
