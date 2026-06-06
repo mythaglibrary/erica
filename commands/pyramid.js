@@ -11,7 +11,7 @@ const content = await readFile(
   "utf8",
 );
 
-const pyramidFile = new AttachmentBuilder("./attachments/pyramid.png", {
+const pyramidFile = new AttachmentBuilder("attachments/pyramid.png", {
   name: "pyramid.png",
 });
 

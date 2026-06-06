@@ -6,14 +6,14 @@ import {
 import { palette } from "src/palette";
 
 const tierlistDpsFile = new AttachmentBuilder(
-  "./attachments/tierlist-dps.jpg",
+  "attachments/tierlist-dps.jpg",
   {
     name: "tierlist-dps.jpg",
   },
 );
 
 const tierlistSupportFile = new AttachmentBuilder(
-  "./attachments/tierlist-support.jpg",
+  "attachments/tierlist-support.jpg",
   {
     name: "tierlist-support.jpg",
   },

@@ -11,7 +11,7 @@ const content = await readFile(
   "utf8",
 );
 
-const covenantFile = new AttachmentBuilder("./attachments/covenant.png", {
+const covenantFile = new AttachmentBuilder("attachments/covenant.png", {
   name: "covenant.png",
 });
 
