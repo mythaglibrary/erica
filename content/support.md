@@ -1,2 +1,1 @@
 How to take a whale support unit even if they don't add you as a friend:
-https://cdn.discordapp.com/attachments/1505154239738019860/1509406022412927059/lv_0_20260528110011.mp4?ex=6a190f67&is=6a17bde7&hm=1fa5bcffbc72e9488931010bc71bad5d0a708b8817577d8ed85a6f65ba221cc5&
