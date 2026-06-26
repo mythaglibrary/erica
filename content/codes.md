@@ -9,8 +9,8 @@ For the newbies out there, don't forget to redeem codes for freebies:
 - `Silverkey`  **never expire**
 - `SayaNoUta` <t:1786895940:R>
 - `YouSavedMorimens` <t:1787500740:R>
-- `VCHB-LEGT-KUUY` <t:1782057540:R>
 - `HVVA-DAQF-JJFC` <t:1782748740:R>
 - `ZNPZ-ENYN-YCVH` <t:1783180740:R>
+- `ZXAR-YPXE-TLWJ` <t:1783699140:R>
 
 Please check in <#1355094251775459399> or <#1355085076500578363> for new codes!
