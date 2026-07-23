@@ -11,5 +11,5 @@ For the newbies out there, don't forget to redeem codes for freebies:
 - `YouSavedMorimens` <t:1787500740:R>
 - `WNZC-ZCQA-QBKQ` <t:1784649540:R>
 - `HJVA-RLMF-RELF` <t:1785167940:R>
-
+- `JRZD-RUXG-RFUS` <t:1786031940:R>
 Please check in <#1355094251775459399> or <#1355085076500578363> for new codes!
