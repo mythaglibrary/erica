@@ -54,6 +54,10 @@ const guides = {
     new URL(import.meta.resolve("content/characters/pollux.md")),
     "utf8",
   ),
+      glotan: await readFile(
+    new URL(import.meta.resolve("content/characters/glotan.md")),
+    "utf8",
+  ),
     saya: await readFile(
     new URL(import.meta.resolve("content/characters/saya.md")),
     "utf8",
@@ -80,6 +84,7 @@ export default {
         .addChoices(
           { name: "Arachne", value: "arachne" },
           { name: "Castor", value: "castor" },
+          { name: "Glotan", value: "glotan" },
           { name: "Clementine", value: "clementine" },
           { name: "Corpo", value: "corpo" },
           { name: "Daffodil", value: "daffodil" },
