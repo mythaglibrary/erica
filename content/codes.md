@@ -10,5 +10,6 @@ For the newbies out there, don't forget to redeem codes for freebies:
 - `YouSavedMorimens` <t:1787500740:R>
 - `HYDJ-BZLA-LGMD` <t:1787587140:R>
 - `DC60000` <t:1788278340:R>
+- `RHDN-BHTP-QLNF` <t:1788451140:R>
 
 Please check in <#1355094251775459399> or <#1355085076500578363> for new codes!
