@@ -6,16 +6,16 @@ import {
 import { palette } from "src/palette";
 
 const tierlistDpsFile = new AttachmentBuilder(
-  "attachments/tierlist-dps.jpg",
+  "attachments/tierlist-dps.png",
   {
-    name: "tierlist-dps.jpg",
+    name: "tierlist-dps.png",
   },
 );
 
 const tierlistSupportFile = new AttachmentBuilder(
-  "attachments/tierlist-support.jpg",
+  "attachments/tierlist-support.png",
   {
-    name: "tierlist-support.jpg",
+    name: "tierlist-support.png",
   },
 );
 
@@ -27,12 +27,12 @@ export default {
   async execute(interaction) {
     const tierlistDPS = new EmbedBuilder()
       .setTitle("DPS")
-      .setImage("attachment://tierlist-dps.jpg")
+      .setImage("attachment://tierlist-dps.png")
       .setColor(palette.red);
 
     const tierlistSupport = new EmbedBuilder()
       .setTitle("Support")
-      .setImage("attachment://tierlist-support.jpg")
+      .setImage("attachment://tierlist-support.png")
       .setColor(palette.blue);
 
     await interaction.reply({
