@@ -4,6 +4,7 @@ Please be sure to check out our <#1304022827824844842>  section! Here are a few 
 - [Game/Realms/Stats Mechanics Guide](https://discord.com/channels/1131791637933199470/1511362816362283118) by Mythag Library
 - [Store Guide](https://discordapp.com/channels/1131791637933199470/1442292634575175710) by Mythag Library
 - [Morimens Database and Teambuiler](https://skeydb.com/#/database) by Fjant
+- [Mechanics Calculator & Effect Search Engine](https://mothertree.vercel.app/) by Aurora
 ## Mode Specific
 - [P-Dive Shortest Map Analysis](<https://discord.com/channels/1131791637933199470/1483756178340315216>) by Aurora
 ## Compendium
