@@ -9,7 +9,6 @@ For the newbies out there, don't forget to redeem codes for freebies:
 - `Silverkey`  **never expire**
 - `DC60000` <t:1788278340:R>
 - `RHDN-BHTP-QLNF` <t:1788451140:R>
-- `RHDN-BHTP-QLNF` <t:1788451140:R>
 - `DWSF-RKEN-NLTY` <t:1788796740:R>
 - `KQQE-MMGR-HNTB` <t:1789142340:R>
 
