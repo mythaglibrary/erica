@@ -10,27 +10,27 @@ const guides = {
     new URL(import.meta.resolve("content/characters/castor.md")),
     "utf8",
   ),
-      castor: await readFile(
+      alva: await readFile(
     new URL(import.meta.resolve("content/characters/alva.md")),
     "utf8",
   ),
-      castor: await readFile(
+      karen: await readFile(
     new URL(import.meta.resolve("content/characters/karen.md")),
     "utf8",
   ),
-      castor: await readFile(
+      hameln: await readFile(
     new URL(import.meta.resolve("content/characters/hameln.md")),
     "utf8",
   ),
-      castor: await readFile(
+      gramona: await readFile(
     new URL(import.meta.resolve("content/characters/gramona.md")),
     "utf8",
   ),
-      castor: await readFile(
+      doll: await readFile(
     new URL(import.meta.resolve("content/characters/doll.md")),
     "utf8",
   ),
-    castor: await readFile(
+    24: await readFile(
     new URL(import.meta.resolve("content/characters/24.md")),
     "utf8",
   ),
