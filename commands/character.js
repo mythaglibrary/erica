@@ -10,6 +10,26 @@ const guides = {
     new URL(import.meta.resolve("content/characters/castor.md")),
     "utf8",
   ),
+      castor: await readFile(
+    new URL(import.meta.resolve("content/characters/alva.md")),
+    "utf8",
+  ),
+      castor: await readFile(
+    new URL(import.meta.resolve("content/characters/karen.md")),
+    "utf8",
+  ),
+      castor: await readFile(
+    new URL(import.meta.resolve("content/characters/hameln.md")),
+    "utf8",
+  ),
+      castor: await readFile(
+    new URL(import.meta.resolve("content/characters/gramona.md")),
+    "utf8",
+  ),
+      castor: await readFile(
+    new URL(import.meta.resolve("content/characters/doll.md")),
+    "utf8",
+  ),
     castor: await readFile(
     new URL(import.meta.resolve("content/characters/24.md")),
     "utf8",
@@ -108,6 +128,11 @@ export default {
           { name: "Saya", value: "saya" },
           { name: "Vortice", value: "vortice" },
           { name: "24", value: "24" },
+          { name: "Doll", value: "doll" },
+          { name: "Karen", value: "karen" },
+          { name: "Gramona", value: "gramona" },
+          { name: "Hameln", value: "hameln" },
+          { name: "Alva", value: "alva" },
           { name: "Xu", value: "xu" },
         ),
     ),
