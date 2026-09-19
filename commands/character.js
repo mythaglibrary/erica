@@ -10,6 +10,10 @@ const guides = {
     new URL(import.meta.resolve("content/characters/castor.md")),
     "utf8",
   ),
+    castor: await readFile(
+    new URL(import.meta.resolve("content/characters/24.md")),
+    "utf8",
+  ),
     pontos: await readFile(
     new URL(import.meta.resolve("content/characters/pontos.md")),
     "utf8",
@@ -103,6 +107,7 @@ export default {
           { name: "Pollux", value: "pollux" },
           { name: "Saya", value: "saya" },
           { name: "Vortice", value: "vortice" },
+          { name: "24", value: "24" },
           { name: "Xu", value: "xu" },
         ),
     ),
