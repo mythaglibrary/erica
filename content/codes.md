@@ -7,6 +7,6 @@ For the newbies out there, don't forget to redeem codes for freebies:
 - `Catsgift`  **never expire**
 - `Dc5000`  **never expire**
 - `Silverkey`  **never expire**
-- `KQQE-MMGR-HNTB` <t:1789142340:R>
 - `LXEA-MGBD-SSVJ` <t:1790265540:R>
-Please check in <#1355094251775459399> or <#1355085076500578363> for new codes!
+
+Please check in <#1515471175483129916> for future codes!
