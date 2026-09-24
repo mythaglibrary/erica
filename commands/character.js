@@ -10,6 +10,14 @@ const guides = {
     new URL(import.meta.resolve("content/characters/castor.md")),
     "utf8",
   ),
+      gogier: await readFile(
+    new URL(import.meta.resolve("content/characters/gogier.md")),
+    "utf8",
+  ),
+      caraboo: await readFile(
+    new URL(import.meta.resolve("content/characters/caraboo.md")),
+    "utf8",
+  ),
       alva: await readFile(
     new URL(import.meta.resolve("content/characters/alva.md")),
     "utf8",
@@ -127,6 +135,8 @@ export default {
           { name: "Pollux", value: "pollux" },
           { name: "Saya", value: "saya" },
           { name: "Vortice", value: "vortice" },
+          { name: "Gogier", value: "gogier" },
+          { name: "Caraboo", value: "caraboo" },
           { name: "24", value: "24" },
           { name: "Doll", value: "doll" },
           { name: "Karen", value: "karen" },
