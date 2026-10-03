@@ -23,16 +23,32 @@ client.on("clientReady", () => {
 });
 
 client.on("interactionCreate", async (interaction) => {
-  if (!interaction.isChatInputCommand()) return;
+  if (!interaction.isChatInputCommand() && !interaction.isAutocomplete()) return;
 
   const command = client.commands.get(interaction.commandName);
 
-  if (!command) return;
-
   try {
+    if (interaction.isAutocomplete()) {
+      if (command?.autocomplete) {
+        await command.autocomplete(interaction);
+      } else {
+        await interaction.respond([]);
+      }
+      return;
+    }
+
+    if (!command) return;
+
     await command.execute(interaction);
   } catch (error) {
     console.error(error);
+
+    if (interaction.isAutocomplete()) {
+      if (!interaction.responded) {
+        await interaction.respond([]).catch(console.error);
+      }
+      return;
+    }
 
     await interaction.reply("An error occurred while executing the command");
   }

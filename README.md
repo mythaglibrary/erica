@@ -65,6 +65,36 @@ All commands load their content from Markdown files in `content/`. Discord rende
 
 **Limit:** Discord caps messages at 2000 characters. If a file grows past that, split it across multiple messages with `interaction.followUp()`.
 
+## Adding Character Guides
+
+Add a Markdown file to `content/characters/`, using a lowercase character name as
+the filename, such as `caraboo.md`. Every `.md` file directly in this folder is
+loaded as a guide when the bot starts. No changes to `commands/character.js` are
+needed to add or remove a character.
+
+Use `/character-guide` and start typing the character name. The bot returns up
+to 25 matching suggestions at a time, so the folder can contain more than 25
+guides. Names are matched without regard to case. The filename without `.md` is
+the option value, and its first letter is capitalized for the displayed name.
+
+Restart the bot after adding or changing guide files. Run `bun run deploy` when
+first updating to this autocomplete command; subsequent guide additions do not
+change the command definition.
+
+## Autocomplete in Other Commands
+
+For another growing list, use `.setAutocomplete(true)` on the string option
+instead of `.addChoices(...)`, and add an `async autocomplete(interaction)`
+method to the command object. The bot routes autocomplete interactions to that
+method automatically.
+
+Read the user's input with `interaction.options.getFocused()`, filter your list,
+and call `interaction.respond()` with at most 25 `{ name, value }` entries.
+For commands with multiple autocomplete options, use
+`interaction.options.getFocused(true).name` to identify the option being edited.
+Validate the submitted value in `execute`, because users can enter a value
+without choosing a suggestion.
+
 ## How do I do things?
 
 More info on what can be done and how: [discord.js guide](https://discordjs.guide/)
