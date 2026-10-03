@@ -9,4 +9,4 @@ For the newbies out there, don't forget to redeem codes for freebies:
 - `Silverkey`  **never expire**
 - `FXFB-EAYD-PWBM` <t:1791300300:R>
 
-Please check in <https://discord.com/channels/1131791637933199470/1355094251775459399> for future codes!
+Please check in <#1355094251775459399> for future codes!
