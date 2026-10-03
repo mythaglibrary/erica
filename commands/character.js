@@ -1,20 +1,37 @@
 import { MessageFlags, SlashCommandBuilder } from "discord.js";
 import { readFile, readdir } from "fs/promises";
 
+function normalizeCharacterName(name) {
+  return name.trim().toLowerCase();
+}
+
 const charactersDir = new URL("../content/characters/", import.meta.url);
 const files = (await readdir(charactersDir, { withFileTypes: true }))
   .filter((file) => file.isFile() && file.name.endsWith(".md"))
   .map((file) => file.name)
   .sort();
 
-const guides = new Map(
-  await Promise.all(
-    files.map(async (file) => [
-      file.slice(0, -3),
-      await readFile(new URL(encodeURIComponent(file), charactersDir), "utf8"),
-    ]),
-  ),
-);
+const guides = new Map();
+
+for (const file of files) {
+  const character = normalizeCharacterName(file.slice(0, -3));
+
+  if (!character || character.length > 100) {
+    throw new Error(
+      `Character guide filename must have 1–100 characters before .md: ${file}`,
+    );
+  }
+
+  if (guides.has(character)) {
+    throw new Error(`Duplicate character guide name "${character}": ${file}`);
+  }
+
+  const content = await readFile(
+    new URL(encodeURIComponent(file), charactersDir),
+    "utf8",
+  );
+  guides.set(character, content);
+}
 
 const characters = [...guides.keys()].map((value) => ({
   name: value.charAt(0).toUpperCase() + value.slice(1),
@@ -34,7 +51,7 @@ export default {
     ),
 
   async autocomplete(interaction) {
-    const query = interaction.options.getFocused().trim().toLowerCase();
+    const query = normalizeCharacterName(interaction.options.getFocused());
     const matches = characters.filter((character) =>
       character.value.includes(query),
     );
@@ -43,10 +60,9 @@ export default {
   },
 
   async execute(interaction) {
-    const character = interaction.options
-      .getString("character", true)
-      .trim()
-      .toLowerCase();
+    const character = normalizeCharacterName(
+      interaction.options.getString("character", true),
+    );
     const content = guides.get(character);
 
     if (!guides.has(character)) {

@@ -77,6 +77,11 @@ to 25 matching suggestions at a time, so the folder can contain more than 25
 guides. Names are matched without regard to case. The filename without `.md` is
 the option value, and its first letter is capitalized for the displayed name.
 
+Keep filenames short (at most 100 characters before `.md`) and use a unique name
+for each guide. Capitalization and spaces around the name are ignored, so
+`Caraboo.md` and `caraboo.md` represent the same character. Invalid or duplicate
+names produce a clear error when the bot starts.
+
 Restart the bot after adding or changing guide files. Run `bun run deploy` when
 first updating to this autocomplete command; subsequent guide additions do not
 change the command definition.
