@@ -8,5 +8,6 @@ For the newbies out there, don't forget to redeem codes for freebies:
 - `Dc5000`  **never expire**
 - `Silverkey`  **never expire**
 - `ZKWM-CRBY-ZXCK` <t:1793289540:R>
+- `QXEX-BVEK-UJWH` <t:1793635140:R>
 
 Please check in <#1355094251775459399> for future codes!
