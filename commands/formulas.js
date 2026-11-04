@@ -8,7 +8,7 @@ const content = await readFile(
 
 export default {
   data: new SlashCommandBuilder()
-    .setName("important formulas")
+    .setName("important-formulas")
     .setDescription("Full damage formula and others"),
 
   async execute(interaction) {
