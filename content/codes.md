@@ -7,5 +7,6 @@ For the newbies out there, don't forget to redeem codes for freebies:
 - `Catsgift`  **never expire**
 - `Dc5000`  **never expire**
 - `Silverkey`  **never expire**
+- `YouSavedMorimens`  **never expire**
 
 Please check in <#1355094251775459399> for future codes!
