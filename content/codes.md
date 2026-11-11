@@ -1,6 +1,6 @@
 All codes listed below are currently active and confirmed to be working.
 
-For the newbies out there, don't forget to redeem codes for freebies:
+Enter code by going Settings - > Account - > Redemption Code
 
 - `HVGX-HLDX-QKKN` **never expire**
 - `QKBQ-SSDG-JZYU` **never expire**
