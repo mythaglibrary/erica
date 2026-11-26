@@ -11,5 +11,6 @@ Enter code by going Settings - > Account - > Redemption Code
 - `WNSZ-MRTF-JUZW` <t:1796054340:R>
 - `AZHL-CZDW-BKPS` <t:1796659080:R>
 - `AKEY-MLWW-BUDQ` <t:1796659080:R>
+- `YJSA-AKBM-ENEN` <t:1796831940:R>
 
 Please check in <#1355094251775459399> for future codes!
